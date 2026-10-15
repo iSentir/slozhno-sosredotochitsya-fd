@@ -1,5 +1,73 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
+/* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  position: relative;
+  background-color: var(--bg-color);
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+.header {
+  display: grid;
+  block-size: 100vh;
+  min-block-size: 668px;
+  grid-template: 1fr min-content 1fr / 1fr;
+  gap: 30px;
+}
+
+.header__decorated {
+  display: inline-block;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  margin-inline: auto 38px;
+  margin-block: 10px 39px;
+}
+
+.header__theme-menu {
+  place-self: start end;
+}
+
+/*    Декоративные эл-ты  HEADER      */
+
+.decorated-top::before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 2px rgb(255 0 112);
+  background-color: var(--accent-color);
+  inset-inline-end: 19px;
+  inset-block-start: 18px;
+}
+
+.decorated-top::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--accent-color);
+  border-inline-start: none;
+  border-block-end: none;
+  inset-block-start: 10px;
+  inset-inline-end: 10px;
+}
+
+.decorated-bottom::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--accent-color);
+  border-inline-end: none;
+  border-block-start: none;
+  inset-block-end: 10px;
+  inset-inline-start: 10px;
+}
+
+/*    Декоративные эл-ты  HEADER  END */

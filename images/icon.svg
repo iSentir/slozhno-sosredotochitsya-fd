@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   fill="none"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <path
+     d="M81 0V28H28L28 81H0V0H81Z"
+     fill="#FF0070"
+     id="path1" />
+  <path
+     d="M256 81V0H175V28L228 28V81H256Z"
+     fill="#FF0070"
+     id="path2" />
+  <path
+     d="M175 256H256V175H228L228 228L175 228V256Z"
+     fill="#FF0070"
+     id="path3" />
+  <path
+     d="M1.06219e-05 175L0 256H81V228L28 228L28 175H1.06219e-05Z"
+     fill="#FF0070"
+     id="path4" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M128 74C98.1766 74 74 98.1766 74 128C74 157.823 98.1766 182 128 182C157.823 182 182 157.823 182 128C182 98.1766 157.823 74 128 74ZM102 128C102 113.641 113.641 102 128 102C142.359 102 154 113.641 154 128C154 142.359 142.359 154 128 154C113.641 154 102 142.359 102 128Z"
+     fill="#FF0070"
+     id="path5" />
+</svg>
