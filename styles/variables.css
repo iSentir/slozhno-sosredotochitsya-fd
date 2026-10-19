@@ -5,7 +5,14 @@
 
 :root {
   --bg-image: url(../images/cover-image-dark.png);
-  --bg-color: #000028;
+  --main-color: #000028;
+  --h1-color: #db00ff;
   --accent-color: #ff0070;
+  --text-main-color: #f1b2ce;
+  --hover-theme-color: rgb(255 0 112/0.4);
   --font-common-family: "IBM Plex mono";
+  --font-size-s: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-size-x: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --font-size-text: 1.125rem;
+  --font-size-switch: 1.5625rem;
 }
