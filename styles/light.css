@@ -12,7 +12,7 @@
   --bg-image: url(../images/cover-image-light.png);
   --main-color: #fff1f7;
   --h1-color: #ffc2e6;
-  --h1-shadow-color: #ff8dcb;
+  --shadow-color: #ff8dcb;
   --accent-color: #353430;
   --decor-bg-color: #ff8dcb;
   --decor-text-color: #353430;
@@ -26,7 +26,7 @@
     --bg-image: url(../images/cover-image-light.png);
     --main-color: #fff1f7;
     --h1-color: #ffc2e6;
-    --h1-shadow-color: #ff8dcb;
+    --shadow-color: #ff8dcb;
     --accent-color: #353430;
     --decor-bg-color: #ff8dcb;
     --decor-text-color: #353430;
