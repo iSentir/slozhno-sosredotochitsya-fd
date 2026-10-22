@@ -7,12 +7,15 @@
   --bg-image: url(../images/cover-image-dark.png);
   --main-color: #000028;
   --h1-color: #db00ff;
+  --h1-shadow-color: #ff0070;
   --accent-color: #ff0070;
+  --decor-bg-color: #ff0070;
+  --decor-text-color: #000028;
   --text-main-color: #f1b2ce;
-  --hover-theme-color: rgb(255 0 112/0.4);
+  --feature-color: #ff0070;
+  --hover-theme-color: rgb(255 0 112 / 0.4);
   --font-common-family: "IBM Plex mono";
+  --font-size-base: 18px;
   --font-size-s: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-size-x: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  --font-size-text: 1.125rem;
-  --font-size-switch: 1.5625rem;
 }
